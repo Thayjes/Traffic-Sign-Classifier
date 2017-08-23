@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./writeup_images/Color_Traffic_Sign.png "Color"
-[gray]: ./writeup_images/Gray_Traffic_Sign.png "Gray"
+[gray]: ./writeup_images/Gray_Traffic_Sign.PNG "Gray"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
