@@ -20,7 +20,8 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/visualization.jpg "Visualization"
-[image2]: ./examples/grayscale.jpg "Grayscaling"
+[image2]: ./writeup_images/Color_Traffic_Sign.png "Color"
+[image2]: ./writeup_images/Gray_Traffic_Sign.png "Gray"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
@@ -42,11 +43,11 @@ You're reading it! and here is a link to my [project code](https://github.com/ud
 
 ####1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
+I used the numpy library to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is 34799
-* The size of the validation set is ?
+* The size of the validation set is 4410
 * The size of test set is 12630
 * The shape of a traffic sign image is (32, 32)
 * The number of unique classes/labels in the data set is 43
@@ -65,7 +66,7 @@ In my first step, I decided to convert the images to grayscale because this not 
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![alt text][image2]
+![alt text][image2] ![alt text][gray]
 
 As a last step, I normalized the image data because this ensured all the pixel values lied between -0.5 and 0.5. This helps remove the differences between bright and dark images, thus reducing effect of contrast.
 
