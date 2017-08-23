@@ -19,7 +19,9 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/visualization.jpg "Visualization"
+[train1]: ./writeup_images/Training Set Distribution before Augmentation.jpg "Visualization1"
+[valid1]: ./writeup_images/Validation Set Distribution before Augmentation.jpg "Visualization2"
+[test1]: ./writeup_images/Test Set Distribution before Augmentation.jpg "Visualization3"
 [image2]: ./writeup_images/Color_Traffic_Sign.png "Color"
 [gray]: ./writeup_images/Gray_Traffic_Sign.PNG "Gray"
 [image3]: ./examples/random_noise.jpg "Random Noise"
@@ -56,7 +58,9 @@ signs data set:
 
 Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
 
-![alt text][image1]
+![alt text][train1]  
+![alt text][valid1]
+![alt text][test1]
 
 ###Design and Test a Model Architecture
 
