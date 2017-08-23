@@ -21,7 +21,7 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./writeup_images/Color_Traffic_Sign.png "Color"
-[image2]: ./writeup_images/Gray_Traffic_Sign.png "Gray"
+[gray]: ./writeup_images/Gray_Traffic_Sign.png "Gray"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
@@ -66,7 +66,9 @@ In my first step, I decided to convert the images to grayscale because this not 
 
 Here is an example of a traffic sign image before and after grayscaling.
 
-![alt text][image2] ![alt text][gray]
+![alt text][image2] 
+
+![alt text][gray]
 
 As a last step, I normalized the image data because this ensured all the pixel values lied between -0.5 and 0.5. This helps remove the differences between bright and dark images, thus reducing effect of contrast.
 
