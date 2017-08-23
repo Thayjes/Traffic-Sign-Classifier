@@ -74,7 +74,11 @@ As a last step, I normalized the image data because this ensured all the pixel v
 
 I decided to generate additional data because my initial model was overfitting the data.
 
-To add more data to the the data set, I used the following techniques because ... 
+To add more data to the the data set, I used the following techniques :
+1. Translation: This involved translating each image by a small distance between (-1.5 and 1.5 pixels) in both the x and y directions.
+2. Perpsective Transform: Each image was warped using a perspective transform. This made the network more robust to the images from various angles.
+3. Rotation: Finally, the image was rotated by a small angle between (-15 and 15 degrees). 
+This data augmentation allows the network to generalize better to various traffic signs. Finally, the data was augmented based on the sample count of each label. So labels with lower sample count had more images augment to them. This ensured that the network was exposed to enough samples of each class.
 
 Here is an example of an original image and an augmented image:
 
