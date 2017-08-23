@@ -22,6 +22,8 @@ The goals / steps of this project are the following:
 [train1]: ./writeup_images/TrainWA.jpeg "Visualization1"
 [valid1]: ./writeup_images/ValidWA.jpeg "Visualization2"
 [test1]: ./writeup_images/Test.jpeg "Visualization3"
+[train2]: ./writeup_images/TrainA.jpeg "Visualization4"
+[valid2]: ./writeup_images/ValidA.jpeg "Visualization5"
 [image2]: ./writeup_images/Color_Traffic_Sign.png "Color"
 [gray]: ./writeup_images/Gray_Traffic_Sign.PNG "Gray"
 [augmented]: ./writeup_images/Augmented_Traffic_Sign.png "Augmented"
@@ -94,8 +96,14 @@ Here is an example of an original image and an augmented image:
 
 ![alt text][augmented]
 
-The difference between the original data set and the augmented data set is the following ... 
+The difference between the original data set and the augmented data set is the following :
+The distribution of samples in each class is much more evenly distributed. We can see compared to before, the augmented set has many more samples for those classes which were undersampled before.
+![alt text][train2]
 
+![alt text][valid2]
+
+* The size of augmented training set is ??
+* The size of the augmented validation set is ??
 
 ####2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
