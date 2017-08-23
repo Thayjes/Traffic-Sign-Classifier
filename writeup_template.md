@@ -56,10 +56,15 @@ signs data set:
 
 ####2. Include an exploratory visualization of the dataset.
 
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
+Here is an exploratory visualization of the data set. In the figures below, we can observe three bar plots. One for each dataset.
+We can observe obviously a larger proportion of images in the training set when compared to the other two sets. Also another point to take note of. is the inequal distribution of images in each class. This may make it difficult for the network to predict those classes with fewer examples. Later this can be dealt with using data augmentation for those classes with fewer samples.
 
 ![alt text][train1]  
+
+
 ![alt text][valid1]
+
+
 ![alt text][test1]
 
 ###Design and Test a Model Architecture
