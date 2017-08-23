@@ -24,6 +24,7 @@ The goals / steps of this project are the following:
 [test1]: ./writeup_images/Test.jpeg "Visualization3"
 [image2]: ./writeup_images/Color_Traffic_Sign.png "Color"
 [gray]: ./writeup_images/Gray_Traffic_Sign.PNG "Gray"
+[augmented]: ./writeup_images/Augmented_Traffic_Sign.png "Augmented"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./examples/placeholder.png "Traffic Sign 1"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
@@ -79,7 +80,7 @@ Here is an example of a traffic sign image before and after grayscaling.
 
 ![alt text][gray]
 
-As a last step, I normalized the image data because this ensured all the pixel values lied between -0.5 and 0.5. This helps remove the differences between bright and dark images, thus reducing effect of contrast.
+In my seconds step, I normalized the image data because this ensured all the pixel values lied between -0.5 and 0.5. This helps remove the differences between bright and dark images, thus reducing effect of contrast.
 
 I decided to generate additional data because my initial model was overfitting the data.
 
@@ -91,7 +92,7 @@ This data augmentation allows the network to generalize better to various traffi
 
 Here is an example of an original image and an augmented image:
 
-![alt text][image3]
+![alt text][augmented]
 
 The difference between the original data set and the augmented data set is the following ... 
 
