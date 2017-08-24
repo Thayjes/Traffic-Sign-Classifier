@@ -143,12 +143,12 @@ My final model results were:
 * validation set accuracy of 98.2% 
 * test set accuracy of 90.1%
 
-If an iterative approach was chosen:
-* What was the first architecture that was tried and why was it chosen?
-* What were some problems with the initial architecture?
-* How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+
 * Which parameters were tuned? How were they adjusted and why?
+The learn rate was tested over a few values, such as 1e-2, 1e-3 and 1e-4. The learning curves were too steep for the first two rates. And a tad bit slow for the final rate, but the curves looked a lot better. Finally I decided on a rate of 0.0005, as it was a good tradeoff.
+
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+A dropout layer was included as this helps with improving an overfitted model to generalize.
 
 If a well known architecture was chosen:
 * LeNet architecture was chosen.
