@@ -29,7 +29,7 @@ The goals / steps of this project are the following:
 [augmented]: ./writeup_images/Augmented_Traffic_Sign.png "Augmented"
 [image3]: ./examples/random_noise.jpg "Random Noise"
 [image4]: ./writeup_images/Example_Traffic_Signs.png "Example Signs"
-
+[fm]: ./writeup_images/FeatureMaps.png "Feature Maps"
 
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
@@ -161,8 +161,7 @@ If a well known architecture was chosen:
 
 Here are eight German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image4] 
 
 The first image might be difficult to classify because ...
 
@@ -186,22 +185,30 @@ The model was able to correctly guess 8 of the 8 traffic signs, which gives an a
 
 ####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+| .97       			| Speed Limit (30km/h)   									| 
+| .98   				| Bumpy Road 										|
+| .99					| Ahead Only										|
+| .67	      			| No Vehicles					 				|
+| .99				    | Go Straight or Left      							|
+| .99 | General Caution
+| .99 | Road Work
+| .99 | Speed Limit (60km/h)
 
 
-For the second image ... 
+For the second image, the probability is 0.67 as the No Vehicles sign is not very distinct and has some similarities to other signs such as Stop Sign.
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 ####1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
+Below is an image of the feature maps after the first layer of convolution.
+
+![alt text][fm] 
+
+
+We can see from the maps. In the first layer the network uses characteristics such as edges of circles and lines.
 
 
