@@ -60,7 +60,7 @@ signs data set:
 ####2. Include an exploratory visualization of the dataset.
 
 Here is an exploratory visualization of the data set. In the figures below, we can observe three bar plots. One for each dataset.
-We can observe obviously a larger proportion of images in the training set when compared to the other two sets. Also another point to take note of. is the inequal distribution of images in each class. This may make it difficult for the network to predict those classes with fewer examples. Later this can be dealt with using data augmentation for those classes with fewer samples.
+We can observe obviously a larger proportion of images in the training set when compared to the other two sets. Also another point to take note of is the unequal distribution of images in each class. This may make it difficult for the network to predict those classes with fewer examples. Later this can be dealt with using data augmentation for those classes with fewer samples.
 
 ![alt text][train1]  
 
@@ -88,7 +88,7 @@ I decided to generate additional data because my initial model was overfitting t
 
 To add more data to the the data set, I used the following techniques :
 1. Translation: This involved translating each image by a small distance between (-1.5 and 1.5 pixels) in both the x and y directions.
-2. Perpsective Transform: Each image was warped using a perspective transform. This made the network more robust to the images from various angles.
+2. Perspective Transform: Each image was warped using a perspective transform. This made the network more robust to the images from various angles.
 3. Rotation: Finally, the image was rotated by a small angle between (-15 and 15 degrees). 
 This data augmentation allows the network to generalize better to various traffic signs. Finally, the data was augmented based on the sample count of each label. So labels with lower sample count had more images augment to them. This ensured that the network was exposed to enough samples of each class.
 
