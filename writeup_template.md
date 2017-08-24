@@ -28,7 +28,7 @@ The goals / steps of this project are the following:
 [gray]: ./writeup_images/Gray_Traffic_Sign.PNG "Gray"
 [augmented]: ./writeup_images/Augmented_Traffic_Sign.png "Augmented"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./examples/placeholder.png "Traffic Sign 1"
+[image4]: ./writeup_images/Example_Traffic_Signs.png "Example Signs"
 [image5]: ./examples/placeholder.png "Traffic Sign 2"
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
