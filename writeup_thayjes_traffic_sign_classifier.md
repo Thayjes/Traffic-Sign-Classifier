@@ -162,7 +162,11 @@ Here are eight German traffic signs that I found on the web:
 
 ![alt text][image4] 
 
-The first image might be difficult to classify because ...
+Here I will discuss some of the properties of the images that may make the difficult to be classified.
+Road Work: The road work image is very blurry and has a lot of noise in it. The quality of the image is also poor. This may make the image difficult to classify.
+No Vehicles: This sign has a very noisy background and there is no clear contrast unlike a few other images. This may be an obstacle for the network to overcome.
+Finally
+Speed Limit (60km/h): The color is a bit faded in the sign with respect to the other images.
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set 
 
